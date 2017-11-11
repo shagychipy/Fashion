@@ -1,0 +1,155 @@
+/*****************************************
+GENERAL
+******************************************/
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+#wrapper{
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+        
+}
+
+header {
+	float: left;
+	margin: 0 10px 10px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+        background-color: lightsteelblue
+}
+
+#logo {
+	text-align: left;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'OpenSans', sans-serif;
+	margin: 15px 5px 15px 20px;
+        padding: 0;
+	font-size: 1.75em;
+	font-weight: BoldItalic;
+	line-height: 0.8em;
+        width: 60%;
+        float: left;
+}
+
+
+#search{
+    color: lightslategrey;
+    font-size: 0.85em;
+    font-weight: normal;
+    width: 15%;
+    margin: 20px 0px 10px 20px;
+}
+/*****************************************
+PAGE: DROPDOWN MENU
+******************************************/
+body {
+    background: url('../J0382970.JPG')no-repeat;
+    background-size: cover;
+    font-family: Arial;
+    color: white;
+}
+
+.clearfix{
+    margin: 10px 10px 0 10px;
+    padding: 0px;
+    list-style: none;
+}
+
+.clearfix li{
+    float: left;
+    width: 140px;
+    height: 40px;
+    background-color: lightsteelblueblue;
+    opacity: 0.8;
+    line-height: 30px;
+    text-align: center;
+    font-size: 15px;
+    
+}
+
+.clearfix li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.clearfix li a:hover {
+   background-color: lawngreen; 
+}
+
+.clearfix li ul li {
+    display: none;
+    font-size: 0.75em;
+}
+
+.clearfix li:hover ul li {
+    display: block;
+    background-color: white;
+    color: black;
+    float:right;
+}
+/*****************************************
+PAGE: GALLERY
+******************************************/
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	background-color: pink;
+	color: black;
+	}
+
+#gallery li a p {
+	margin: 0;
+	padding: 5%;
+	font-size: 0.75em;
+	color: black;
+	text-align: center;
+}
+
+/*****************************************
+FOOTER
+******************************************/
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+	color: blueviolet;
+}
+
+.social-icon {
+	width:20px;
+	height: 20px;
+	margin: 0 5px;
+}
+/*  nav link */
+nav a, nav a:visited {
+	color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+	color: #32673f;
+}
+
+
+
